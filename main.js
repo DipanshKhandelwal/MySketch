@@ -116,3 +116,6 @@ document.getElementById('green1').addEventListener('click', function(){
     document.getElementById('green1').style.borderRadius = "20px";
 document.getElementById('color').style.backgroundColor='green';
 });
+canvas.addEventListener('mousedown', engage);
+canvas.addEventListener('mouseup', disengage);
+canvas.addEventListener('mousemove', putPoint);
