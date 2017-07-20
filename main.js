@@ -61,3 +61,10 @@ function squareup(){
 document.getElementById('download').addEventListener('click', function() {
     downloadCanvas(this, 'drawingCanvas', 'My_Drawing.png');
 }, false);
+
+document.getElementById('chosencolor').addEventListener('click', function(){
+    x=document.getElementById('chosencolor').style.backgroundColor;
+   colorbrush = x;
+    canvasContext.strokeStyle = x;
+    document.getElementById('color').style.backgroundColor=x;
+});
