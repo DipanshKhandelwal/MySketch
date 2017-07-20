@@ -36,3 +36,8 @@ function downloadCanvas(link, canvasId, filename) {
     link.download = filename;
     print_voucher();
 }
+
+clear.addEventListener('click',function(){
+    canvasContext.clearRect(0, 0, canvas.width, canvas.height);
+    canvasContext.beginPath();
+});
