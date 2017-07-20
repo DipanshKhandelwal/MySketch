@@ -100,3 +100,11 @@ document.getElementById('black1').addEventListener('click', function(){
     document.getElementById('black1').style.borderRadius = "20px";
   document.getElementById('color').style.backgroundColor='black';
 });
+
+document.getElementById('yellow1').addEventListener('click', function(){
+   colorbrush = 'yellow';
+    canvasContext.strokeStyle = 'yellow';
+    squareup();
+    document.getElementById('yellow1').style.borderRadius = "20px";
+  document.getElementById('color').style.backgroundColor='yellow';
+});
