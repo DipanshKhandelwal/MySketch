@@ -21,3 +21,12 @@ var putPoint = function (e) {
     canvasContext.moveTo(e.offsetX, e.offsetY);
     }
 }
+
+var engage = function(e) {
+    dragging = true;
+    putPoint(e);
+}
+var disengage = function(){
+    dragging = false;
+    canvasContext.beginPath();
+}
