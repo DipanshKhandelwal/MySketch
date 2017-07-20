@@ -57,3 +57,7 @@ function squareup(){
     document.getElementById('black1').style.borderRadius = "10px";
     document.getElementById('yellow1').style.borderRadius = "10px";
 }
+
+document.getElementById('download').addEventListener('click', function() {
+    downloadCanvas(this, 'drawingCanvas', 'My_Drawing.png');
+}, false);
