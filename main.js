@@ -48,3 +48,12 @@ function print_voucher(){
     win.print();
     win.location.reload();
 }
+
+function squareup(){
+    document.getElementById('red1').style.borderRadius = "10px";
+    document.getElementById('green1').style.borderRadius = "10px";
+    document.getElementById('white1').style.borderRadius = "10px";
+    document.getElementById('blue1').style.borderRadius = "10px";
+    document.getElementById('black1').style.borderRadius = "10px";
+    document.getElementById('yellow1').style.borderRadius = "10px";
+}
