@@ -84,3 +84,11 @@ document.getElementById('red1').addEventListener('click', function(){
     document.getElementById('red1').style.borderRadius = "20px";
     document.getElementById('color').style.backgroundColor='red';
 });
+
+document.getElementById('white1').addEventListener('click', function(){
+   colorbrush = 'white';
+    canvasContext.strokeStyle = 'white';
+    squareup();
+    document.getElementById('white1').style.borderRadius = "20px";
+  document.getElementById('color').style.backgroundColor='#ffffff';
+});
