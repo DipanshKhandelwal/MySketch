@@ -76,3 +76,11 @@ document.getElementById('blue1').addEventListener('click', function(){
     document.getElementById('blue1').style.borderRadius = "20px";
   document.getElementById('color').style.backgroundColor='dodgerblue';
 });
+
+document.getElementById('red1').addEventListener('click', function(){
+   colorbrush = 'red';
+    canvasContext.strokeStyle = 'red';
+    squareup();
+    document.getElementById('red1').style.borderRadius = "20px";
+    document.getElementById('color').style.backgroundColor='red';
+});
