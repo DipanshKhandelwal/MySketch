@@ -41,3 +41,10 @@ clear.addEventListener('click',function(){
     canvasContext.clearRect(0, 0, canvas.width, canvas.height);
     canvasContext.beginPath();
 });
+
+function print_voucher(){
+    var win=window.open();
+    win.document.write("<br><img src='"+canvas.toDataURL()+"'/>");
+    win.print();
+    win.location.reload();
+}
