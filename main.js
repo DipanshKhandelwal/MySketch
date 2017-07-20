@@ -92,3 +92,11 @@ document.getElementById('white1').addEventListener('click', function(){
     document.getElementById('white1').style.borderRadius = "20px";
   document.getElementById('color').style.backgroundColor='#ffffff';
 });
+
+document.getElementById('black1').addEventListener('click', function(){
+   colorbrush = 'black';
+    canvasContext.strokeStyle = 'black';
+    squareup();
+    document.getElementById('black1').style.borderRadius = "20px";
+  document.getElementById('color').style.backgroundColor='black';
+});
