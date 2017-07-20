@@ -156,3 +156,14 @@ img{
     height: 30px;
     width: 30px;
 }
+
+#download{
+    float: right;
+    position: absolute;
+    color: blueviolet;
+    font-size: 23px;
+    right: 32px;
+    top: 80px;
+    color: #121212;
+    background-color:#0F87FF;
+}
