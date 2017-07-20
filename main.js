@@ -68,3 +68,11 @@ document.getElementById('chosencolor').addEventListener('click', function(){
     canvasContext.strokeStyle = x;
     document.getElementById('color').style.backgroundColor=x;
 });
+
+document.getElementById('blue1').addEventListener('click', function(){
+   colorbrush = 'dodgerblue';
+    canvasContext.strokeStyle = 'dodgerblue';
+    squareup();
+    document.getElementById('blue1').style.borderRadius = "20px";
+  document.getElementById('color').style.backgroundColor='dodgerblue';
+});
