@@ -1,0 +1,68 @@
+body {
+    background-color: #A2B4D5;
+}
+
+#toolbar{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    top: 0;
+    position: fixed;
+    background-color:#0F87FF;
+    color: white;
+    font-family: sans-serif;
+}
+
+.radcontrol{
+    width: 30px;
+    height: 30px;
+    background-color: #4f4f4f;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+    
+}
+
+#drawingCanvas{
+    background-color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#heading{
+    float:inherit;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    color: #A2B4D5;
+}
+
+#colorchooser{
+    float: right;
+    top: 450px;
+    right: 9px;
+    position: absolute;
+}
+
+#chosencolor{
+    height: 45px;
+    width: 45px;
+    text-align: center;
+}
+
+#color{
+    height: 120px;
+    width: 320px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    float: right;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
