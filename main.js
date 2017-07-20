@@ -8,3 +8,16 @@ var dragging = false;
 canvas.width = 1000;
 canvas.height = 550;
 var radius = 10;
+
+var putPoint = function (e) {
+    if(dragging == true){
+    canvasContext.lineTo(e.offsetX, e.offsetY);
+    canvasContext.stroke();
+    canvasContext.beginPath();
+    canvasContext.fillStyle = colorbrush;
+    canvasContext.arc(e.offsetX, e.offsetY, radius, 0, 2*Math.PI);
+    canvasContext.fill();
+    canvasContext.beginPath();
+    canvasContext.moveTo(e.offsetX, e.offsetY);
+    }
+}
