@@ -140,6 +140,18 @@ body {
     color: black;
 }
 
+#clear{
+    float: right;
+    width: 300px;
+    color: black;
+    background-color:#0F87FF; 
+    position: absolute;
+    top: 350px;
+    right: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
 img{
     height: 30px;
     width: 30px;
