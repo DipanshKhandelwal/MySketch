@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drawing Canvas</title>
+    <link rel="stylesheet" href="master.css">
+<body style="margin:0">
+    <canvas id="drawingCanvas"></canvas>
+    <script src="jscolor.js"></script>
+    <div id="colorchooser">
+		<button class="jscolor {valueElement:'chosen-value',onFineChange:'setTextColor(this)'}" id="chosencolor"></button>
+    	HEX value: <input id="chosen-value" value="000000">
+    	<script>
+		function setTextColor(picker) {
+			document.getElementsByTagName('body')[0].style.color = '#' + picker.toString()}
+		</script>
+    </div>
+    <div id="color"></div>
+    <div id="toolbar">
+            <div id="rad">
+                Brush Size 
+                <span id="radval">10</span>
+                <button id="decrad" class="radcontrol">-</button>
+                <button id="incrad" class="radcontrol">+</button>
+            </div>
+            <div id="heading"><a href="index.html">My Sketch</a></div>
+            <button id="blue1"></button>
+            <button id="red1"></button>
+            <button id="white1"></button>
+            <button id="black1"></button>
+            <button id="yellow1"></button>
+            <button id="green1"></button>
+            <button id="clear">Clear Canvas</button>
+            <button id="download">
+            	<div id="dwnldimg">
+            		<img src="Simple-Download-icon.png">Download Canvas As Image
+            	</div>
+            </button>    
+        </div>
+    <script src="main.js"></script>
+    <script src="radius.js"></script>
+</body>
+</html>
