@@ -108,3 +108,11 @@ document.getElementById('yellow1').addEventListener('click', function(){
     document.getElementById('yellow1').style.borderRadius = "20px";
   document.getElementById('color').style.backgroundColor='yellow';
 });
+
+document.getElementById('green1').addEventListener('click', function(){
+   colorbrush = 'green';
+    canvasContext.strokeStyle = 'green';
+    squareup();
+    document.getElementById('green1').style.borderRadius = "20px";
+document.getElementById('color').style.backgroundColor='green';
+});
