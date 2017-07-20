@@ -1,0 +1,10 @@
+var canvas = document.getElementById('drawingCanvas');
+var canvasContext = canvas.getContext('2d');
+var clear = document.getElementById('clear');
+var colorbrush;
+var defaultcolor = 'black';
+colorbrush = defaultcolor;
+var dragging = false;
+canvas.width = 1000;
+canvas.height = 550;
+var radius = 10;
